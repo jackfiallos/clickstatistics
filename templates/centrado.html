@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>ClickStatistics - Plantilla Centrada</title>
+	<script type="text/javascript" src="../js/mootools-1.2-core.js"></script>
+	<script type="text/javascript" src="../js/mootools-1.2-more.js"></script>
+	<script type="text/javascript" src="../js/clickstatistics.js"></script>
+	<script type="text/javascript">
+		window.addEvent('domready', function() {
+			var statistics = new ClickStatistics({trackMouseMove : true,pathScript : '../'});
+			//console.log ("Tamano del area disponible: " + window.getWidth() + " x " + window.getHeight());
+			//console.log ("Scroll: " + window.getScrollLeft() + " x " + window.getScrollTop());
+			//console.log ("scrollSize: " + window.getScrollWidth() + " x " + window.getScrollHeight());
+		});
+	</script>
+	<style type="text/css">
+		* { margin: 0; padding: 0; }
+		body { background-color: #fff; color: #333; font-family: "Arial", "Helvetica", sans-serif; font-size: .75em; text-align: center; }
+		div#center { padding: 20px; }
+		div#center { margin: 0 180px; }
+		div#container { margin: 20px inherit; }
+		div#container { margin: 0 auto; text-align: left; width: 780px; }
+		div#content { margin: 10px 0; }
+		div#footer { background-color: #f5f5f5; margin: 10px 0; padding: 20px; margin-top:20px; border:5px solid #404040;}
+		div#footer { clear: both; }
+		div#header { background-color: #f5f5f5; padding: 20px; border:5px solid #404040; }
+		div#left { float: left; }
+		div#right { float: right; }
+		div#uhoh { line-height: 1.5em; margin: 100px auto; padding: 20px 30px; text-align: left; width: 400px; }
+		div.column { background-color: #f5f5f5; padding: 20px 0; text-indent: 20px; border:5px solid #404040;}
+		div.column { width: 180px; margin-bottom: 10px; }
+		div.column ul li { list-style-type:none; padding: 5px; text-decoration: underline; color:#5C99DB; font-weight:bold; }
+		div.unauthorized-401 a, div.forbidden-403 a, div.notfound-404 a, div.internalerror-500 a { background-color: #ffc; color: #00f; }
+		div.unauthorized-401, div.forbidden-403, div.notfound-404, div.internalerror-500 { background-color: #ffc; border: 1px solid #ff0; color: #333; }
+		.x { display: none; }
+	</style>
+</head>
+<body>
+	<div id="container">
+		<a class="x" title="skip to content" name="top" href="#content">skip to content</a>
+		<div id="header">
+			<h2>Clicstatistics - Center Template <img src="../images/favorite.png"></h2>
+		</div>
+		<a name="content"/>
+		<div id="content">
+			<div id="left" class="column">
+				<ul>
+					<li>DcodSMS</li>
+					<li>IMMEX</li>
+					<li>IRIS</li>
+					<li>ClickStatistics</li>
+				</ul>
+			</div>
+			<div id="right" class="column">
+				<ul>
+					<li>DcodSMS</li>
+					<li>IMMEX</li>
+					<li>IRIS</li>
+					<li>ClickStatistics</li>
+					<li><img src="../images/favorite.png"></li>
+				</ul>
+			</div>
+			<div id="center">
+				<p>Lorem ipsum splendide definitionem ne mea. Dico illud debet duo ei, nec eu omnis mollis cetero. Ex atomorum prodesset honestatis per, ne sed esse oratio ubique. Est tibique fastidii qualisque ut, ut eos urbanitas mnesarchum reprimique, cu veri dicam est. Et regione suavitate vis, nam iusto errem ludus in.</p>
+				<p>Ius idque inani possit te, te sed adhuc patrioque definitiones, eius eligendi ex cum. Duo ea constituto consequuntur, nec eu sumo reprehendunt, eu nec atqui bonorum vituperata. At ius alterum legimus definiebas, eos at vide dignissim delicatissimi, cum noster doctus ex. Ei delicata mandamus salutandi sed, his possit delenit gubergren in. Modus labore omittantur te qui. Te has illud summo gubergren, nisl melius dissentiunt usu te.</p>
+				<p>Per ea modus admodum alienum, eu eos idque eruditi cotidieque, duo idque aperiri phaedrum ea. Impedit mediocrem intellegat nec ei, id hinc aliquyam intellegebat qui. Sumo semper voluptatibus eam id, ad pro aliquip epicuri elaboraret, in pri euismod eleifend. Malorum sententiae per no, ad adhuc vitae delicata pri. Sit ex gubergren quaerendum omittantur, constituto instructior eu cum, nec graece detracto delicatissimi cu. Nam in natum habemus conclusionemque, mei ad congue nullam inermis.</p>
+				<p>Per indoctum interpretaris an. Ne nisl consul option vis, quo ea takimata indoctum consectetuer, vix labores omnesque eu. Sit quod nusquam invidunt at, nec perpetua praesent ei. Animal expetenda concludaturque vim ei, mel ex blandit accusata electram, ceteros deleniti reprimique ea sea. Sanctus antiopam eu est, mea cu iusto timeam delicatissimi. Alii timeam insolens nec ad, sed quem consequuntur ea.</p>
+				<p>Ei aeque inciderint vim, eirmod iriure placerat eu sea. Dicit delectus mediocrem no per. Porro omnesque has ne, eu eos sonet aliquando quaerendum, aeque mundi persequeris at quo. Et usu forensibus complectitur reprehendunt, veniam postea latine nam no. Ad eum inani nullam ancillae, id altera lobortis duo. Melius definiebas suscipiantur eam in, pri an liber copiosae aliquyam.</p>
+				<p>Numquam atomorum eu vim, id unum fabulas volutpat nam. Aeterno patrioque suscipiantur sit at, viris phaedrum duo ea, pri dolor sanctus ad. Erant cetero legendos nam ut, ne has nostrud denique apeirian. No mazim consul nam, ex eum dicat noluisse. Feugiat omittam scribentur ius te, cum ea nostrud oportere dissentias. No pri dolor vivendo, nec ex reque inimicus patrioque. Ex nam salutatus definiebas omittantur, vix alterum mandamus id.</p>
+				<p>Est ei corpora forensibus, eum audiam persecuti liberavisse id. Eum duis albucius ocurreret te, sit quod primis putant et. Ea per error aeque choro, soleat semper adipisci sit cu, equidem necessitatibus in qui. Liber dolorum disputando an mea, has ne invidunt recteque suavitate. Ei scripta vituperatoribus ferri vix, quot posse albucius quo ut. Alii erant at sed, inani tritani equidem cu his. Quas choro apeirian sit id, autem dolorem qualisque ius ei.</p>
+				<p>Vim dolore contentiones ut, cu summo meliore ius, has ad erant commune officiis. Inimicus oportere constituto est ei, ad mea quem nisl mediocrem. Iisque delenit electram eam ne, vel audiam facilisis ex. Tale viderer prodesset in pri, mel id iusto essent iriure, vim et perfecto expetenda abhorreant. Vis nusquam postulant theophrastus eu. Qui eu tota oportere, quidam luptatum aliquando mel te, quod conceptam in vix.</p>
+				<p>Eum ad dicat epicurei aliquyam, eos an veri decore repudiare. Ea primis expetendis interpretaris has. Sed ne noster latine graecis. Tantas indoctum democritum te nec, omnis libris partiendo cum ei, ei eirmod fierent nominavi mel. Vis officiis constituam delicatissimi ut, cu eum maluisset repudiare argumentum.</p>
+				<p>Vide omnes vituperata at pri, an augue admodum duo. Vide prima congue pri et, mei nemore semper instructior cu, in liber clita tincidunt vel. Eam te erat nostro consectetuer, ad sit debitis corpora. No elit eruditi moderatius sea, omnes reformidans an sed. Eum ut vidit idque suavitate, his quem stet rebum in. Eu pri debet laudem elaboraret, ne clita homero adipisci eam.</p>
+			</div>
+		</div>
+		<div id="footer">
+			Clickstatistics por <a href="http://qbit.com.mx">Qbit Mexhico</a> <img src="../images/favorite.png">
+		</div>
+		<a class="x" title="back to top" name="bottom" href="#top">back to top</a>
+	</div>
+</body>
+</html>

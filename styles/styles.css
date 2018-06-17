@@ -1,0 +1,40 @@
+html, body{
+	height: 100%;
+	font-family: tahoma, verdana;
+	font-size: 13px;
+}
+
+.slider {
+	background: transparent url(../images/bg-fader.gif) no-repeat scroll 0 0;
+	height: 28px;
+	width: 209px;
+}
+
+.slider .knob {
+	background: transparent url(../images/thumb-n.gif) no-repeat scroll 0 0;
+	height: 26px;
+	width: 17px;
+	cursor: w-resize;
+}
+
+#imgdiv {
+	line-height: 0;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	text-align: center;
+	z-index: 99;
+	background-color: #000;
+	width: 100%;
+	height: 100%;
+}
+
+#overlayer {
+	margin: 0;
+	padding: 0;
+	overflow: auto;
+	position: relative;
+	margin: auto;
+}
+
+#website { z-index: 1; top: 0; left: 0; width: 100%; height: 100%; }

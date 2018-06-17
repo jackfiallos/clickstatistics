@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Db flnm="clickstatistics" nm="clickstatistics" ver="1.3.4">
+  <VerLbl/>
+  <VerNotes/>
+  <DefTblOpts/>
+  <DocFolder>/home/jack/workspace/Qbit/ClickStatistics</DocFolder>
+  <Sch Cm="" nm="schemaA">
+    <Tbl UsSo="1" nm="datareg">
+      <TblOpts/>
+      <Pk ClNs="id" nm="pkdatareg"/>
+      <Cl au="1" df="" nm="id" nu="0">
+        <DT ds="Integer" en="" id="4" ln="null" sc="null" sg="1"/>
+      </Cl>
+      <Cl au="0" df="0x0" nm="coord" nu="0">
+        <DT ds="VarChar" en="" id="12" ln="16" sc="null" sg="1"/>
+      </Cl>
+      <Cl au="0" df="800x600" nm="srcres" nu="0">
+        <DT ds="VarChar" en="" id="12" ln="16" sc="null" sg="1"/>
+      </Cl>
+      <Cl au="0" df="" nm="uri" nu="0">
+        <DT ds="VarChar" en="" id="12" ln="255" sc="null" sg="1"/>
+      </Cl>
+      <Cl au="0" df="" nm="eventtype" nu="0">
+        <DT ds="VarChar" en="" id="12" ln="5" sc="null" sg="1"/>
+      </Cl>
+      <Cl au="0" df="0000-00-00" nm="regdate" nu="0">
+        <DT ds="Date" en="" id="91" ln="null" sc="null" sg="1"/>
+      </Cl>
+      <SchTrHis/>
+    </Tbl>
+    <Tbl UsSo="1" nm="users">
+      <TblOpts/>
+      <Pk ClNs="id" nm="pkusers"/>
+      <Cl au="1" df="" nm="id" nu="0">
+        <DT ds="Integer" en="" id="4" ln="null" sc="null" sg="1"/>
+      </Cl>
+      <Cl au="0" df="" nm="username" nu="0">
+        <DT ds="VarChar" en="" id="12" ln="255" sc="null" sg="1"/>
+      </Cl>
+      <Cl au="0" df="" nm="password" nu="0">
+        <DT ds="VarChar" en="" id="12" ln="32" sc="null" sg="1"/>
+      </Cl>
+      <SchTrHis/>
+    </Tbl>
+  </Sch>
+  <Dgm nm="diagramA">
+    <RnCf FtSz="9" lkStgy="OffsetDirect" zm="1.0">
+      <VbCfg>
+        <Fg ky="Auto Number" vl="1"/>
+        <Fg ky="Check" vl="0"/>
+        <Fg ky="Comment" vl="0"/>
+        <Fg ky="Data Type" vl="1"/>
+        <Fg ky="Default" vl="0"/>
+        <Fg ky="ENUM Values" vl="0"/>
+        <Fg ky="Length" vl="1"/>
+        <Fg ky="Name" vl="1"/>
+        <Fg ky="Nullable" vl="0"/>
+        <Fg ky="Schema Name" vl="0"/>
+        <Fg ky="Signed" vl="0"/>
+      </VbCfg>
+    </RnCf>
+    <TbGl bkCl="ffffffe6" sch="schemaA" tbl="datareg" x="31" y="22"/>
+    <TbGl bkCl="ffffffe6" sch="schemaA" tbl="users" x="82" y="121"/>
+  </Dgm>
+  <RnmMgr NxRnmId="4">
+    <RnmCh ObjCls="Column" ParCls="Table" ParNme="datareg" SupCls="Schema" SupNme="schemaA">
+      <Rnm id="1" nNm="id" oNm="dataregId"/>
+    </RnmCh>
+    <RnmCh ObjCls="Column" ParCls="Table" ParNme="datareg" SupCls="Schema" SupNme="schemaA">
+      <Rnm id="3" nNm="srcres" oNm="scrres"/>
+      <Rnm id="2" nNm="scrres" oNm="screenres"/>
+    </RnmCh>
+  </RnmMgr>
+  <DbDocOptionMgr>
+    <BasicOptionMgr>
+      <Name>db.doc.option.mgr</Name>
+      <BoolOpt lbl="Diagrams" nm="doc.diagrams" on="1" spl="0"/>
+      <BoolOpt lbl="Foreign Keys" nm="doc.fks" on="1" spl="0"/>
+      <BoolOpt lbl="Indexes" nm="doc.indexes" on="1" spl="0"/>
+      <BoolOpt lbl="Overwrite CSS File" nm="doc.overwrite.css" on="1" spl="0"/>
+      <BoolOpt lbl="Procedures" nm="doc.procs" on="1" spl="0"/>
+      <BoolOpt lbl="Schemas" nm="doc.schemas" on="1" spl="0"/>
+      <BoolOpt lbl="Sequences" nm="doc.sequences" on="1" spl="0"/>
+      <BoolOpt lbl="Tables" nm="doc.tables" on="1" spl="0"/>
+      <BoolOpt lbl="Triggers" nm="doc.triggers" on="1" spl="0"/>
+      <BoolOpt lbl="Views" nm="doc.views" on="1" spl="0"/>
+    </BasicOptionMgr>
+  </DbDocOptionMgr>
+</Db>

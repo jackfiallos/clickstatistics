@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" x="16" y="8" width="769" height="553" text="Browser&#xA;http://..."/>
+  <widgets xsi:type="model:Panel" x="608" y="79" width="167" height="41"/>
+  <widgets xsi:type="model:Label" x="26" y="70" text="Clickstatistics">
+    <font size="32"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" x="26" y="136" width="527" height="415"/>
+  <widgets xsi:type="model:Panel" x="560" y="136" width="215" height="415"/>
+  <widgets xsi:type="model:Group" x="48" y="152" width="481" height="177" text="Informacion del Usuario"/>
+  <widgets xsi:type="model:Group" x="48" y="336" width="481" height="137" text="Informacion del Sitio"/>
+  <widgets xsi:type="model:TextField" x="58" y="193" width="177"/>
+  <widgets xsi:type="model:TextField" x="58" y="241" width="177"/>
+  <widgets xsi:type="model:Label" x="58" y="173" text="Nombre de Usuario">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" x="58" y="221" text="Clave de Acceso">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" x="58" y="376" width="177"/>
+  <widgets xsi:type="model:Label" x="58" y="356" text="URL de las paginas">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" x="243" y="372" width="270" height="30" text="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. " dummyText="true">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" x="243" y="189" width="270" height="30" text="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. " dummyText="true">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" x="243" y="237" width="270" height="30" text="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. " dummyText="true">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" x="58" y="446" text="Registrar Movimiento"/>
+  <widgets xsi:type="model:Checkbox" x="58" y="426" text="Registrar Clicks"/>
+  <widgets xsi:type="model:Button" x="456" y="518" width="73" text="Guardar"/>
+  <widgets xsi:type="model:TextField" x="58" y="292" width="177"/>
+  <widgets xsi:type="model:Label" x="58" y="272" text="Direccion de Correo">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" x="243" y="288" width="270" height="30" text="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. " dummyText="true">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" x="58" y="401" width="151"/>
+  <widgets xsi:type="model:Icon" x="219" y="404" icon="circled-plus (small)"/>
+  <widgets xsi:type="model:LinkBar" x="320" y="99" text="Tablero,Estadisticas,Configuracion, Acerca de" selection="2">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Group" x="570" y="149" width="195" height="324" text="Almacenamiento"/>
+  <widgets xsi:type="model:RadioButton" x="585" y="184" text="Almacenar en Archivo de texto" selected="true"/>
+  <widgets xsi:type="model:RadioButton" x="585" y="213" text="Almacenar en Base de Datos"/>
+  <widgets xsi:type="model:Label" x="588" y="252" text="Servidor">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" x="588" y="304" text="Nombre de Usuario">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" x="588" y="360" text="Clave de acceso">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" x="588" y="272" width="151"/>
+  <widgets xsi:type="model:TextField" x="588" y="325" width="151"/>
+  <widgets xsi:type="model:TextField" x="588" y="380" width="151"/>
+  <widgets xsi:type="model:Button" x="668" y="430" width="73" text="Guardar"/>
+  <widgets xsi:type="model:Panel" x="580" y="237" width="175" height="226" alpha="192" border="false"/>
+  <hRuler/>
+  <vRuler/>
+  <font/>
+</model:Screen>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" x="16" y="8" width="769" height="553" text="Browser&#xA;http://..."/>
+  <widgets xsi:type="model:Panel" x="608" y="79" width="167" height="41"/>
+  <widgets xsi:type="model:Label" x="26" y="70" text="Clickstatistics">
+    <font size="32"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" x="26" y="136" width="527" height="415"/>
+  <widgets xsi:type="model:Panel" x="560" y="136" width="215" height="415"/>
+  <widgets xsi:type="model:Panel" x="48" y="320" width="230" height="209"/>
+  <widgets xsi:type="model:Panel" x="291" y="320" width="230" height="209"/>
+  <widgets xsi:type="model:Panel" x="39" y="158" width="501" height="129"/>
+  <widgets xsi:type="model:ScratchOut" x="48" y="200" width="482" height="77" alpha="192"/>
+  <widgets xsi:type="model:LinkBar" x="320" y="99" text="Tablero,Estadisticas,Configuracion, Acerca de" selection="0">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" x="301" y="325" text="Websites">
+    <font size="16"/>
+  </widgets>
+  <widgets xsi:type="model:Table" x="301" y="370" width="210" height="149" text="Nombre, Estado, Eventos"/>
+  <widgets xsi:type="model:Label" x="48" y="158" text="Estadisticas de Acceso">
+    <font size="16"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font/>
+</model:Screen>

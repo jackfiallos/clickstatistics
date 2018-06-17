@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" x="16" y="8" width="769" height="553" text="Browser&#xA;http://..."/>
+  <widgets xsi:type="model:Panel" x="192" y="148" width="417" height="273"/>
+  <widgets xsi:type="model:Button" x="504" y="388" width="95" text="Entrar"/>
+  <widgets xsi:type="model:Label" x="272" y="176" text="Clickstatistics">
+    <font size="32"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" x="304" y="274" width="177"/>
+  <widgets xsi:type="model:TextField" x="304" y="322" width="177"/>
+  <widgets xsi:type="model:Label" x="304" y="254" text="Nombre de Usuario">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" x="304" y="302" text="Clave de Acceso">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" x="304" y="352" text="Recordarme"/>
+  <widgets xsi:type="model:Link" x="397" y="352" text="Olvide mi clave..">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" x="192" y="424" text="Developed by ">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Link" x="263" y="424" text="Qbit Mexhico">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font/>
+</model:Screen>

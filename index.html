@@ -1,0 +1,137 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>ClickStatistics por Qbit Mexhico</title>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<meta name="robots" content="noindex, nofollow" />
+	<meta name="keywords" content="heatmap, qbit, software, mootools, servicio, scripts, javascript, eyetracking, marketing, seguimiento, visitas" />
+	<style type="text/css">
+	#header h1 {
+		color:#FFFFFF;
+		font-size:145%;
+		padding:20px 20px 12px;
+	}
+	body {
+		background:#9E9E9E none repeat scroll 0 0;
+		color:#333333;
+		font-family:arial,tahoma,verdana,sans-serif;
+		font-size:83%;
+		font-weight:normal;
+		line-height:1.5;
+		padding:20px 0;
+		text-align:left;
+	}
+	#wrap {
+		background:#FFFFFF none repeat scroll 0 0;
+		border:1px solid #FFFFFF;
+		margin:0 auto;
+		position:relative;
+		text-align:left;
+		width:700px;
+	}
+	#header {
+		background: #666666 url(images/sprites.jpg) repeat-x 0 100%;
+		margin:0 0 25px;
+		padding: 20px 0 12px 20px;
+		color: #fff;
+	}
+	#content {
+		padding:0 20px;
+	}
+	.highlight {
+		background:#E6FFE7 none repeat scroll 0 0;
+		border:2px solid #009900;
+		padding:15px;
+		position:relative;
+	}
+	</style>
+</head>
+<body>
+	<div id="wrap">
+		<div id="header">
+			<span style="font-size:26px; font-weight:bold;">ClickStatistics</span> - 
+			<a href="http://qbit.com.mx" title="Qbit Mexhico" target="_blank">
+				<span style="font-size:16px; font-weight:bold; color:#fff; text-decoration:none;">Qbit Mexhico</span>
+			</a>
+		</div>
+		<div id="content">
+			<div class="highlight">
+				<h2>Qu&eacute; es ClickStatistics ?</h2>
+				<p>
+					Es una aplicaci&oacute;n cuyo objetivo es el de analizar y mostrar la informaci&oacute;n de areas 
+					espec&iacute;ficas sobre las cuales los usuarios son atraidos visualmente o areas en las cuales 
+					los usuarios hacen click con mayor frecuencia. La informaci&oacute;n obtenida es transformada   
+					en un mapa visual el cual permite mejorar aspectos visuales y de marketing de sitios web. 
+					Ideal para hacer estudios de mercadotecnia.
+				</p>
+				<ul>
+					<li><a href="http://es.wikipedia.org/wiki/Eye_tracking">EyeTracking</a></li>
+					<li><a href="http://en.wikipedia.org/wiki/Heat_map">HeatMap</a></li>
+					<li><a href="plantillas/centrado.html">Navegar por la plantilla demo y generar coordenadas</a></li>
+					<li><a href="view.php">Resultado final con imagen de an&aacute;lisis</a></li>
+				</ul>
+				<ul>
+					<li>
+						Esta aplicaci&oacute;n se encuentra en desarrollo, si se desea probar mientras su desarrollo 
+						continua puedes escribir un comentario en <a href="http://qbit.com.mx/blog/2008/11/21/generacion-de-eyetracking-y-heatmap/">Generacion de Eyetracking y Heatmap en Qbit Mexhico Blog</a>.
+					</li>
+				</ul>
+			</div>
+			<h2>Requerimientos</h2>
+			<p>
+				<ul>
+					<li>Javascript Frameworkd Mootools 1.2 Core y More o versiones superiores.</li>
+					<li>Plugin Clickstatistics.js para Mootools.</li>
+					<li>Servidor Apache o Windows con soporte para PHP, modulo php_gd instalado.</li>
+				</ul>
+			</p>
+			<h2>Instalaci&oacute;n</h2>
+			<p>
+				<ul style="list-style-type:none;">
+					<li>
+						Agregar los siguientes vinculos a los archivos entre los headers<br /><br />
+						<code>
+							&lt;script type=&quot;text/javascript&quot; src=&quot;js/mootools-1.2-core.js&quot;&gt;&lt;/script&gt;<br />
+							&lt;script type=&quot;text/javascript&quot; src=&quot;js/mootools-1.2-more.js&quot;&gt;&lt;/script&gt;<br />
+							&lt;script type=&quot;text/javascript&quot; src=&quot;js/clickstatistics.js&quot;&gt;&lt;/script&gt;<br />
+						</code>
+						<br />
+						Inicializar la clase Clickstatistics<br /><br />
+						<code>
+							&lt;script type=&quot;text/javascript&quot;&gt;<br />
+								window.addEvent('domready', function() {<br />
+									var statistics = new ClickStatistics();<br />
+								});<br />
+							&lt;/script&gt;<br />
+						</code>
+					</li>
+				</ul>
+			</p>
+			<h2>TODO</h2>
+			<p>
+				<ul>
+					<li>imagen.php funcionando al 90% en servidores linux Zoom m&aacute;ximo 3.</li>
+					<li>Hardcode width to 1024px.</li>
+					<li>Leer la informacion de la BD</li>
+					<li>Resoluciones de salida (screenwidth y screenheight del cliente con php)</li>
+					<li>Hay un error en el posicionamiento de las coordenadas del evento move</li>
+					<li>Crear un plugin para wordpress</li>
+				</ul>
+			</p>
+			<hr/>
+			Clickstatistics version 0.4 - Desarrollado por <a href="http://qbit.com.mx" title="Qbit Mexhico" target="_blank">Qbit Mexhico</a>.
+			<hr/>
+		</div>
+	</div>
+	<script type="text/javascript">
+	/*var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));*/
+	</script>
+	<script type="text/javascript">
+	/*try {
+	var pageTracker = _gat._getTracker("UA-2230984-7");
+	pageTracker._trackPageview();
+	} catch(err) {}*/
+	</script>
+</body>
+</html>
